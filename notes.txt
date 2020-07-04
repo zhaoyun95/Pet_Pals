@@ -1,0 +1,35 @@
+PS D:\James Data\Documents\BCS\data-project-two> & D:/ProgramData/Anaconda3/envs/pet_pals_env/python.exe c:\Users\James\.vscode\extensions\ms-python.python-2020.6.91350\pythonFiles\pyvsc-run-isolated.py pip install -U pylint
+Collecting pylint
+  Downloading pylint-2.5.3-py3-none-any.whl (324 kB)
+     |████████████████████████████████| 324 kB 2.2 MB/s
+Collecting astroid<=2.5,>=2.4.0
+  Downloading astroid-2.4.2-py3-none-any.whl (213 kB)
+     |████████████████████████████████| 213 kB 6.4 MB/s
+Collecting isort<5,>=4.2.5
+  Using cached isort-4.3.21-py2.py3-none-any.whl (42 kB)
+Collecting colorama; sys_platform == "win32"
+  Using cached colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Collecting toml>=0.7.1
+  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
+Collecting mccabe<0.7,>=0.6
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting lazy-object-proxy==1.4.*
+  Downloading lazy_object_proxy-1.4.3-cp36-cp36m-win_amd64.whl (20 kB)
+Collecting typed-ast<1.5,>=1.4.0; implementation_name == "cpython" and python_version < "3.8"
+  Downloading typed_ast-1.4.1-cp36-cp36m-win_amd64.whl (155 kB)
+     |████████████████████████████████| 155 kB ...
+Requirement already satisfied, skipping upgrade: six~=1.12 in d:\programdata\anaconda3\envs\pet_pals_env\lib\site-packages (from astroid<=2.5,>=2.4.0->pylint) (1.15.0)
+Collecting wrapt~=1.11
+  Downloading wrapt-1.12.1.tar.gz (27 kB)
+Building wheels for collected packages: wrapt
+  Building wheel for wrapt (setup.py) ... done
+  Created wheel for wrapt: filename=wrapt-1.12.1-cp36-cp36m-win_amd64.whl size=33321 sha256=ef797bc9060df43b52f4eaef6f06c1432672aa6108431fa9ce7724d9d8beba5f
+  Stored in directory: c:\users\james\appdata\local\pip\cache\wheels\32\42\7f\23cae9ff6ef66798d00dc5d659088e57dbba01566f6c60db63
+Successfully built wrapt
+Installing collected packages: lazy-object-proxy, typed-ast, wrapt, astroid, isort, colorama, toml, mccabe, pylint
+  WARNING: The script isort.exe is installed in 'D:\ProgramData\Anaconda3\envs\pet_pals_env\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts epylint.exe, pylint.exe, pyreverse.exe and symilar.exe are installed in 'D:\ProgramData\Anaconda3\envs\pet_pals_env\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed astroid-2.4.2 colorama-0.4.3 isort-4.3.21 lazy-object-proxy-1.4.3 mccabe-0.6.1 pylint-2.5.3 toml-0.10.1 typed-ast-1.4.1 wrapt-1.12.1
+PS D:\James Data\Documents\BCS\data-project-two>

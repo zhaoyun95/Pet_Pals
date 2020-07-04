@@ -1,6 +1,6 @@
 function buildPlot() {
-  let d3;
-  let Plotly;
+  // let d3;
+  // let Plotly;
 
     /* data route */
   const url = "/api/pals";
